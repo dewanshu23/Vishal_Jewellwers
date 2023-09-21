@@ -2,7 +2,6 @@ var data=document.querySelectorAll('.data')
 
         let cust_name = data[0]
         let item_name = data[2]
-        console.log(item_name)
         let weight = data[3]
         let waste = data[4]
         let margin = data[5]
