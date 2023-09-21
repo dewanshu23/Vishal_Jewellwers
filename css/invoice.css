@@ -17,9 +17,9 @@
     
     border: 1px solid grey;
     text-align: justify;
-    padding: 15px;
+   
     height: auto;
-    width: 124.5mm;
+    width: auto;
     margin:auto;
     font-family: 'Roboto Slab', serif;
     border-top: none;
@@ -62,20 +62,13 @@ table{
 h5{
     text-align: right;
   }
-  .header{
-    width: 132.5mm;
-  
-    border: 1px solid grey;
-    margin:auto;
-    border-bottom: none;
-}
-
+ 
 img{
-    
+    width: 100%;
     justify-items: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: none;
+    margin-right: none;
     
 }
 .date{
@@ -101,7 +94,7 @@ img{
 
 .footer{
     height: 5px;
-    width: 133mm;
+    width: auto;
     background-color: rgb(75, 10, 0);
     margin:auto;
 }
@@ -116,4 +109,7 @@ img{
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: large;
+}
+.inner{
+    padding: 15px;
 }
